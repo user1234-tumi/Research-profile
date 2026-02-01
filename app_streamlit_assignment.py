@@ -28,7 +28,7 @@ tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
 with tab1:
     st.header("About Me")
     st.write("MSc Agronomy graduate with hands-on experience in field trials, seed quality, and lab evaluations. I am exploring data analysis and data science to generate insights and support data-driven decisions in research.")
-    image = Image.open(r"C:\Users\mkhab\Downloads\python project 1\python_project1\Streamlit\streamlit_files\IMG-20231020-WA0047.jpg")
+    image = Image.open(r"IMG-20231020-WA0047.jpg")
     
     image = image.resize((600, int(600 * image.height / image.width)))
     
@@ -127,3 +127,4 @@ with tab7:
     st.header("Contact Me")
     st.markdown(f"- **Email:** mkhabelaitumeleng483@gmail.com")
     st.markdown(f"- **Phone:** 065 544 6895")
+
